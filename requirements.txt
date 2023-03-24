@@ -57,7 +57,7 @@ poetry==1.1.11
 poetry-core==1.0.8
 
 ptyprocess==0.7.0
-pyarrow @ https://files.pythonhosted.org/packages/bc/5b/cee81fdfbd963e08a50eda1500fc9142fa08a7dec5f7dcd9c7c2a33536b6/pyarrow-11.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=ad7c53def8dbbc810282ad308cc46a523ec81e653e60a91c609c2233ae407689
+
 pydeck @ https://files.pythonhosted.org/packages/ac/1e/676ed6c028bfd39d6c7c75abd57bc482f7eaa813f3faa715d80431732a43/pydeck-0.8.0-py2.py3-none-any.whl#sha256=a8fa7757c6f24bba033af39db3147cb020eef44012ba7e60d954de187f9ed4d5
 pyflakes @ https://files.pythonhosted.org/packages/dc/13/63178f59f74e53acc2165aee4b002619a3cfa7eeaeac989a9eb41edf364e/pyflakes-2.5.0-py2.py3-none-any.whl#sha256=4579f67d887f804e67edb544428f264b7b24f435b263c4614f384135cea553d2
 Pygments @ https://files.pythonhosted.org/packages/0b/42/d9d95cc461f098f204cd20c85642ae40fbff81f74c300341b8d0e0df14e0/Pygments-2.14.0-py3-none-any.whl#sha256=fa7bd7bd2771287c0de303af8bfdfc731f51bd2c6a47ab69d117138893b82717
