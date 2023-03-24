@@ -40,7 +40,6 @@ keyring==21.8.0
 lockfile==0.12.2
 markdown-it-py @ https://files.pythonhosted.org/packages/bf/25/2d88e8feee8e055d015343f9b86e370a1ccbec546f2865c98397aaef24af/markdown_it_py-2.2.0-py3-none-any.whl#sha256=5a35f8d1870171d9acc47b99612dc146129b631baf04970128b568f190d0cc30
 
-matplotlib @ https://files.pythonhosted.org/packages/89/f3/84a9a6613ab0d89931d785f13fa2606e03f07252875acc8ebf5b676fa3c5/matplotlib-3.7.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=eb7d248c34a341cd4c31a06fd34d64306624c8cd8d0def7abb08792a5abfd556
 mdurl @ https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl#sha256=84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8
 msgpack==1.0.4
 multidict @ https://files.pythonhosted.org/packages/56/b5/ac112889bfc68e6cf4eda1e4325789b166c51c6cd29d5633e28fb2c2f966/multidict-6.0.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=36c63aaa167f6c6b04ef2c85704e93af16c11d20de1d133e39de6a0e84582a93
@@ -107,3 +106,4 @@ yapf @ https://files.pythonhosted.org/packages/47/88/843c2e68f18a5879b4fbf37cb99
 yarg==0.1.9
 yarl @ https://files.pythonhosted.org/packages/b5/e0/6ea3832faed10de6a06cd407c660e6978d5538fe7489e934fb9967c8bb8b/yarl-1.8.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=6c4fcfa71e2c6a3cb568cf81aadc12768b9995323186a10827beccf5fa23d4f8
 zipp @ https://files.pythonhosted.org/packages/d8/20/256eb3f3f437c575fb1a2efdce5e801a5ce3162ea8117da96c43e6ee97d8/zipp-3.11.0-py3-none-any.whl#sha256=83a28fcb75844b5c0cdaf5aa4003c2d728c77e05f5aeabe8e95e56727005fbaa
+matplotlib-3.7.1
