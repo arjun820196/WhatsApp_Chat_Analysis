@@ -55,7 +55,7 @@ platformdirs==2.6.2
 pluggy @ https://files.pythonhosted.org/packages/9e/01/f38e2ff29715251cf25532b9082a1589ab7e4f571ced434f98d0139336dc/pluggy-1.0.0-py2.py3-none-any.whl#sha256=74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3
 poetry==1.1.11
 poetry-core==1.0.8
-protobuf @ https://files.pythonhosted.org/packages/31/be/80a9c6f16dfa4d41be3edbe655349778ae30882407fa8275eb46b4d34854/protobuf-3.20.3-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl#sha256=9aae4406ea63d825636cc11ffb34ad3379335803216ee3a856787bcf5ccc751e
+
 ptyprocess==0.7.0
 pyarrow @ https://files.pythonhosted.org/packages/bc/5b/cee81fdfbd963e08a50eda1500fc9142fa08a7dec5f7dcd9c7c2a33536b6/pyarrow-11.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=ad7c53def8dbbc810282ad308cc46a523ec81e653e60a91c609c2233ae407689
 pydeck @ https://files.pythonhosted.org/packages/ac/1e/676ed6c028bfd39d6c7c75abd57bc482f7eaa813f3faa715d80431732a43/pydeck-0.8.0-py2.py3-none-any.whl#sha256=a8fa7757c6f24bba033af39db3147cb020eef44012ba7e60d954de187f9ed4d5
