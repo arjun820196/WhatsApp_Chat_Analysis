@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-# from wordcloud import WordCloud
 import preprocessor
 import helper
 
@@ -36,9 +35,7 @@ if uploader is not None:
     v3.empty()
     v4.empty()
 
-    # df= df[df['message']!='joined to group']
-    # df=df[df['message']!='added to group']
-    # df=df[df['user']!='group_notification']
+    
 
     user_df = helper.dataframe(selected_user, df)
     st.title("selected user's chats")
@@ -131,12 +128,7 @@ if uploader is not None:
         with col2:
           st.dataframe(new_df)
 
-      # st.title('Wordcloud')
-      # df_wc= helper.create_wordcloud(selected_user, df)
-      # fig, ax= plt.subplots()
-      # ax.imshow(df_wc)
-      # plt.axis("off")
-      # st.pyplot(fig)
+    
 
       st.title('most common words')
       common_df = helper.most_common_words(selected_user, df)
