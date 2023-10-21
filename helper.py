@@ -2,7 +2,6 @@ import pandas as pd
 from urlextract import URLExtract
 from collections import Counter
 import emoji
-# from wordcloud import WordCloud
 
 
 def dataframe(selected_user, df):
@@ -40,14 +39,6 @@ def most_busy_user(df):
   return x, df
 
 
-# def create_wordcloud(selected_user, df):
-#     if selected_user!='overall':
-#        df=df[df['user']== selected_user]
-#     wc= WordCloud(width=500, height=500, min_font_size=10, background_color='black')
-#     df_wc= wc.generate(df['message'].str.cat(sep=" "))
-#     return df_wc
-
-
 def most_common_words(selected_user, df):
   if selected_user != 'overall':
     df = df[df['user'] == selected_user]
@@ -71,10 +62,9 @@ def show_emoji(selected_user, df):
 
   emojis = []
   for message in df['message']:
-    # emoji=emojis.get('message')
+    
     emojis.extend([c for c in message if c in emoji.EMOJI_DATA])
-    # emojis1=emojis.unique()
-    # emojis2= emojis.count()
+   
 
   emoji_df = pd.DataFrame(Counter(emojis).most_common(10))
 
